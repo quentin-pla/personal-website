@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/quentin-pla.fr/static/css/main.cbfa905f.chunk.css",
-    "main.js": "/quentin-pla.fr/static/js/main.fd532b32.chunk.js",
-    "main.js.map": "/quentin-pla.fr/static/js/main.fd532b32.chunk.js.map",
-    "runtime-main.js": "/quentin-pla.fr/static/js/runtime-main.cb4ef195.js",
-    "runtime-main.js.map": "/quentin-pla.fr/static/js/runtime-main.cb4ef195.js.map",
-    "static/css/2.ceb06015.chunk.css": "/quentin-pla.fr/static/css/2.ceb06015.chunk.css",
-    "static/js/2.382badc5.chunk.js": "/quentin-pla.fr/static/js/2.382badc5.chunk.js",
-    "static/js/2.382badc5.chunk.js.map": "/quentin-pla.fr/static/js/2.382badc5.chunk.js.map",
-    "index.html": "/quentin-pla.fr/index.html",
-    "precache-manifest.eb0bb76439ce400bb4bf948d4be2cc08.js": "/quentin-pla.fr/precache-manifest.eb0bb76439ce400bb4bf948d4be2cc08.js",
-    "service-worker.js": "/quentin-pla.fr/service-worker.js",
-    "static/css/2.ceb06015.chunk.css.map": "/quentin-pla.fr/static/css/2.ceb06015.chunk.css.map",
-    "static/css/main.cbfa905f.chunk.css.map": "/quentin-pla.fr/static/css/main.cbfa905f.chunk.css.map",
-    "static/js/2.382badc5.chunk.js.LICENSE.txt": "/quentin-pla.fr/static/js/2.382badc5.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/quentin-pla.fr/static/media/roman.8b70fa90.otf"
+    "main.css": "/static/css/main.6251049a.chunk.css",
+    "main.js": "/static/js/main.5c91beb3.chunk.js",
+    "main.js.map": "/static/js/main.5c91beb3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ce89729d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ce89729d.js.map",
+    "static/css/2.ceb06015.chunk.css": "/static/css/2.ceb06015.chunk.css",
+    "static/js/2.382badc5.chunk.js": "/static/js/2.382badc5.chunk.js",
+    "static/js/2.382badc5.chunk.js.map": "/static/js/2.382badc5.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1ce69715f8de8d5f49373cf80e8a000c.js": "/precache-manifest.1ce69715f8de8d5f49373cf80e8a000c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.ceb06015.chunk.css.map": "/static/css/2.ceb06015.chunk.css.map",
+    "static/css/main.6251049a.chunk.css.map": "/static/css/main.6251049a.chunk.css.map",
+    "static/js/2.382badc5.chunk.js.LICENSE.txt": "/static/js/2.382badc5.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/roman.8b70fa90.otf"
   },
   "entrypoints": [
-    "static/js/runtime-main.cb4ef195.js",
+    "static/js/runtime-main.ce89729d.js",
     "static/css/2.ceb06015.chunk.css",
     "static/js/2.382badc5.chunk.js",
-    "static/css/main.cbfa905f.chunk.css",
-    "static/js/main.fd532b32.chunk.js"
+    "static/css/main.6251049a.chunk.css",
+    "static/js/main.5c91beb3.chunk.js"
   ]
 }
