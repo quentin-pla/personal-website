@@ -58,7 +58,7 @@ function Cards() {
                 </div>
             </div>
             <div className={"card d-none"}>
-                <a target={"_blank"} rel="noopener noreferrer" href="https://cc7.company/" className="stretched-link"> </a>
+                <a target={"_blank"} rel="noopener noreferrer" href="#" className="stretched-link"> </a>
                 <div id="cc7-top" className={"top"}>
                     <img className="img-fluid" width={110} src={process.env.PUBLIC_URL + "/cc7-logo.svg"} alt={"CC7"}/>
                 </div>
