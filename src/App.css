@@ -1,7 +1,7 @@
 html,body,#root {
   height: 100%;
   background: #000;
-  font-family: Avenir-Medium, monospace;
+  font-family: medium, monospace;
   scroll-behavior: smooth;
   max-width: 100%;
 }
@@ -12,7 +12,7 @@ a {
 
 h1 {
   font-size: 4rem;
-  font-family: Avenir-Heavy, monospace;
+  font-family: heavy, monospace;
 }
 
 .gradient {
@@ -121,7 +121,7 @@ h1 {
 }
 
 #bio-container h2 {
-  font-family: Avenir-Roman, monospace;
+  font-family: roman, monospace;
   font-size: 45px;
   background: linear-gradient(45deg, #4c75c0, #6a5bae);
   -webkit-background-clip: text;
@@ -195,7 +195,7 @@ h1 {
 }
 
 #parcours-container h3 {
-  font-family: Avenir-Heavy, monospace;
+  font-family: heavy, monospace;
   font-size: 1.78vw;
   line-height: 1.4;
 }
@@ -261,13 +261,13 @@ h1 {
 }
 
 .step-container h1 {
-  font-family: Avenir-Black, monospace;
+  font-family: black, monospace;
   font-size: 1rem !important;
   margin-bottom: 2px;
 }
 
 .step-container h2 {
-  font-family: Avenir-Medium, monospace;
+  font-family: medium, monospace;
   color: #5c5c5c;
   font-size: 1rem;
   margin-bottom: 0;
@@ -324,7 +324,7 @@ h1 {
   min-width: 220px;
   max-width: 220px;
   background: linear-gradient(45deg, #4c75c0, #6a5bae);
-  font-family: Avenir-Heavy, monospace;
+  font-family: heavy, monospace;
   font-size: 2rem;
   margin: 10px;
   cursor: pointer;
@@ -365,12 +365,12 @@ h1 {
 }
 
 #category-content h3 {
-  font-family: Avenir-Heavy, monospace;
+  font-family: heavy, monospace;
   font-size: 1.5rem;
 }
 
 #category-content h4 {
-  font-family: Avenir-Light, monospace;
+  font-family: light, monospace;
   font-size: 1.2rem;
 }
 
@@ -478,18 +478,18 @@ h1 {
 }
 
 .card>.body>.date {
-  font-family: Avenir-Heavy, monospace;
+  font-family: heavy, monospace;
   font-size: 35px;
   text-align: center;
 }
 
 .card>.body>.stage {
-  font-family: Avenir-Heavy, monospace;
+  font-family: heavy, monospace;
 }
 
 .card>.body>.desc {
   margin-bottom: 0;
-  font-family: Avenir-Roman, monospace;
+  font-family: roman, monospace;
 }
 
 #experience .tentacle2 {
@@ -521,7 +521,7 @@ h1 {
 }
 
 #realisations h4.date {
-  font-family: Avenir-Heavy, monospace;
+  font-family: heavy, monospace;
   font-size: 35px;
 }
 

@@ -13,36 +13,36 @@ code {
 }
 
 @font-face {
-  font-family: 'Avenir-Heavy';
-  src: url('./fonts/Avenir-Heavy.otf');
+  font-family: 'heavy';
+  src: url('fonts/heavy.otf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Avenir-Black';
-  src: url('./fonts/Avenir-Black.otf');
+  font-family: 'black';
+  src: url('fonts/black.otf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Avenir-Medium';
-  src: url('./fonts/Avenir-Medium.otf');
+  font-family: 'medium';
+  src: url('fonts/medium.otf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Avenir-Roman';
-  src: url('./fonts/Avenir-Roman.otf');
+  font-family: 'roman';
+  src: url('fonts/roman.otf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Avenir-Light';
-  src: url('./fonts/Avenir-Light.otf');
+  font-family: 'light';
+  src: url('fonts/light.otf');
   font-weight: normal;
   font-style: normal;
 }
