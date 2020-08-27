@@ -57,8 +57,8 @@ function Cards() {
                     <h4 className={"desc"}>Réalisation d’une application web REACT permettant d'afficher et modifier le menu de chaque jour</h4>
                 </div>
             </div>
-            <div className={"card"}>
-                <a target={"_blank"} rel="noopener noreferrer" href="https://cc7paca.herokuapp.com/" className="stretched-link"> </a>
+            <div className={"card d-none"}>
+                <a target={"_blank"} rel="noopener noreferrer" href="https://cc7.company/" className="stretched-link"> </a>
                 <div id="cc7-top" className={"top"}>
                     <img className="img-fluid" width={110} src={process.env.PUBLIC_URL + "/cc7-logo.svg"} alt={"CC7"}/>
                 </div>
