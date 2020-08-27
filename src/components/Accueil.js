@@ -15,11 +15,11 @@ function Accueil() {
                 </div>
             </Col>
             <Col className="col-12 col-md">
-                <img className="img-fluid" id="face" src={"moi.jpg"} alt={"visage"}/>
+                <img className="img-fluid" id="face" src={process.env.PUBLIC_URL + "/moi.jpg"} alt={"visage"}/>
             </Col>
-            <img className="tentacle1" src={"tentacle1.svg"} alt={"tentacle"}/>
-            <img className="tentacle2 d-none d-md-block" src={"tentacle2.svg"} alt={"tentacle"}/>
-            <img className="obscrax d-none d-md-block" src={"obscrax.svg"} alt={"obscrax"}/>
+            <img className="tentacle1" src={process.env.PUBLIC_URL + "/tentacle1.svg"} alt={"tentacle"}/>
+            <img className="tentacle2 d-none d-md-block" src={process.env.PUBLIC_URL + "/tentacle2.svg"} alt={"tentacle"}/>
+            <img className="obscrax d-none d-md-block" src={process.env.PUBLIC_URL + "/obscrax.svg"} alt={"obscrax"}/>
         </Row>
     );
 }

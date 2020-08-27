@@ -17,7 +17,7 @@ function Experience() {
                     </div>
                 </ScrollAnimation>
             </Col>
-            <img className="tentacle2" src={"tentacle2.svg"} alt={"tentacle"}/>
+            <img className="tentacle2" src={process.env.PUBLIC_URL + "/tentacle2.svg"} alt={"tentacle"}/>
         </Row>
     );
 }
@@ -38,7 +38,7 @@ function Cards() {
             <div className={"card"}>
                 <a target={"_blank"} rel="noopener noreferrer" href="https://www.laprovence.com/" className="stretched-link"> </a>
                 <div id="laprovence-top" className={"top"}>
-                    <img className="img-fluid mb-1" width={230} src={"logo-laprovence.jpg"} alt={"laProvence"}/>
+                    <img className="img-fluid mb-1" width={230} src={process.env.PUBLIC_URL + "/logo-laprovence.jpg"} alt={"laProvence"}/>
                 </div>
                 <div id="laprovence" className={"body pt-1"}>
                     <h4 className={"date mb-2"}>2019</h4>
@@ -50,7 +50,7 @@ function Cards() {
             <div className={"card"}>
                 <a target={"_blank"} rel="noopener noreferrer" href="https://www.buvettedulac.fr/" className="stretched-link"> </a>
                 <div id="buvettedulac-top" className={"top"}>
-                    <img className="img-fluid" width={80} src={"logo-buvette.PNG"} alt={"Buvettedulac"}/>
+                    <img className="img-fluid" width={80} src={process.env.PUBLIC_URL + "/logo-buvette.PNG"} alt={"Buvettedulac"}/>
                 </div>
                 <div id="buvettedulac" className={"body pt-2"}>
                     <h4 className={"date mb-2"}>2020</h4>
@@ -60,7 +60,7 @@ function Cards() {
             <div className={"card"}>
                 <a target={"_blank"} rel="noopener noreferrer" href="https://cc7paca.herokuapp.com/" className="stretched-link"> </a>
                 <div id="cc7-top" className={"top"}>
-                    <img className="img-fluid" width={110} src={"cc7-logo.svg"} alt={"CC7"}/>
+                    <img className="img-fluid" width={110} src={process.env.PUBLIC_URL + "/cc7-logo.svg"} alt={"CC7"}/>
                 </div>
                 <div id="cc7" className={"body pt-2"}>
                     <h4 className={"date mb-2"}>2020</h4>
@@ -70,7 +70,7 @@ function Cards() {
             <div className={"card"}>
                 <a target={"_blank"} rel="noopener noreferrer" href="https://www.linkedin.com/in/quentin-pla-447413190/" className="stretched-link"> </a>
                 <div id="linkedin-top" className={"top"}>
-                    <img className="img-fluid" width={110} src={"link.png"} alt={"linkedin"}/>
+                    <img className="img-fluid" width={110} src={process.env.PUBLIC_URL + "/link.png"} alt={"linkedin"}/>
                 </div>
                 <div id="linkedin" className={"body pt-2"}>
                     <h4 className={"date mb-2"}>2017/2020</h4>

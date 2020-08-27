@@ -82,7 +82,7 @@ class Competences extends Component {
                         }
                     </div>
                 </div>
-                <img className="tentacle3" src={"tentacle3.svg"} alt={"tentacle"}/>
+                <img className="tentacle3" src={process.env.PUBLIC_URL + "/tentacle3.svg"} alt={"tentacle"}/>
             </Row>
         );
     }

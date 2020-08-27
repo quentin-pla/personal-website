@@ -104,7 +104,7 @@ function Sommaire() {
     return (
         <div id="summary" className={""}>
             {summaryContent}
-            <img className={"d-block d-md-none"} width={30} id="obscrax-btn" src={"obscrax.svg"} alt={"bouton"}/>
+            <img className={"d-block d-md-none"} width={30} id="obscrax-btn" src={process.env.PUBLIC_URL + "/obscrax.svg"} alt={"bouton"}/>
         </div>
     );
 }

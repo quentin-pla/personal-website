@@ -77,7 +77,7 @@ function Parcours() {
                 </div>
                 </ScrollAnimation>
 
-                <img id="road" src={"road.svg"} width={100} alt={"route"}/>
+                <img id="road" src={process.env.PUBLIC_URL + "/road.svg"} width={100} alt={"route"}/>
 
                 <ScrollAnimation animateIn='animate__animated animate__fadeIn' animateOnce={true} offset={1000}>
                 <div className={"step-container down second"}>
