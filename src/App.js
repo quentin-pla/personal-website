@@ -92,7 +92,7 @@ function Sommaire() {
             <p id="accueil-anchor"      onClick={()=>scrollToAnchor("accueil")} className={"active"}>Accueil</p>
             <p id="parcours-anchor"     onClick={()=>scrollToAnchor("parcours")} className={""}>Parcours</p>
             <p id="competences-anchor"  onClick={()=>scrollToAnchor("competences")} className={""}>Compétences</p>
-            <p id="experience-anchor"   onClick={()=>scrollToAnchor("experience")} className={""}>Expérience</p>
+            <p id="experience-anchor"   onClick={()=>scrollToAnchor("experience")} className={""}>Expériences</p>
             <p id="realisations-anchor" onClick={()=>scrollToAnchor("realisations")} className={""}>Réalisations</p>
             <p id="contact-anchor"      onClick={()=>scrollToAnchor("contact")} className={""}>Contact</p>
             <div className={"text-right d-block d-md-none"} style={{marginRight:"10px"}}>

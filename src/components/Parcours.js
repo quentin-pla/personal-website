@@ -52,7 +52,7 @@ function Parcours() {
             <Col className={"col-12 col-md"}>
                 <div id={"parcours-container"}>
                     <h1>Parcours</h1>
-                    <h3>Passioné dans les domaines du design, web et applications mobiles, je souhaiterais devenir développeur full stack.</h3>
+                    <h3>Passionné dans les domaines du design, web et applications mobiles, je souhaiterais devenir développeur full stack.</h3>
                 </div>
             </Col>
             <Col className={"col-12 col-md"} id={"responsive-step"}>

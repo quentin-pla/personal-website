@@ -7,7 +7,7 @@ function Experience() {
     return (
         <Row id={"experience"} className={"justify-content-center text-center"}>
             <Col className={"m-auto px-0"}>
-                <h1 className={"mb-5"}>Expérience</h1>
+                <h1 className={"mb-5"}>Expériences</h1>
                 <ScrollAnimation animateIn='animate__animated animate__fadeIn'>
                     <div className={"justify-content-center d-none d-md-flex"}>
                         <Cards/>
