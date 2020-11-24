@@ -4,7 +4,7 @@ import Accueil from './components/Accueil';
 import {Container} from "react-bootstrap";
 import Parcours from "./components/Parcours";
 import Competences from "./components/Competences";
-import Experience from "./components/Experience";
+import Experiences from "./components/Experiences";
 import Realisations from "./components/Realisations";
 import Contact from "./components/Contact";
 import $ from "jquery";
@@ -17,7 +17,7 @@ function App() {
           <Accueil/>
           <Parcours/>
           <Competences/>
-          <Experience/>
+          <Experiences/>
           <Realisations/>
           <Contact/>
       </Container>

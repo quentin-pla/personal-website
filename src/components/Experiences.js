@@ -3,7 +3,7 @@ import {Row,Col} from "react-bootstrap";
 import ScrollAnimation from "react-animate-on-scroll";
 import ReactSwipe from 'react-swipe';
 
-function Experience() {
+function Experiences() {
     return (
         <Row id={"experience"} className={"justify-content-center text-center"}>
             <Col className={"m-auto px-0"}>
@@ -44,7 +44,7 @@ function Cards() {
                     <h4 className={"date mb-2"}>2019</h4>
                     <h4 className={"stage m-0"}>• CDD 1 mois (Juillet)</h4>
                     <h4 className={"stage mb-3"}>• Stage 2 mois (Avril)</h4>
-                    <h4 className={"desc"}>Aide à la réalisation d’une application web avec Laravel pour le portage de journaux</h4>
+                    <h4 className={"desc"}>Aide à la réalisation d’une application web Laravel pour le portage de journaux</h4>
                 </div>
             </div>
             <div className={"card"}>
@@ -54,7 +54,7 @@ function Cards() {
                 </div>
                 <div id="buvettedulac" className={"body pt-2"}>
                     <h4 className={"date mb-2"}>2020</h4>
-                    <h4 className={"desc"}>Réalisation d’une application web REACT permettant d'afficher et modifier le menu de chaque jour</h4>
+                    <h4 className={"desc"}>Réalisation d’une application web REACT permettant de gérer les menus du jour d'une buvette</h4>
                 </div>
             </div>
             <div className={"card"}>
@@ -71,4 +71,4 @@ function Cards() {
     )
 }
 
-export default Experience;
+export default Experiences;

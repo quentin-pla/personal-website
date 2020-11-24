@@ -601,6 +601,12 @@ h1 {
   padding: 2px;
 }
 
+#fake-at {
+  background-color: #27282c;
+  color: white;
+  margin: 0;
+}
+
 .contact-item img {
   border-radius: 25px;
   margin-bottom: 3px;

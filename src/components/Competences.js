@@ -104,8 +104,8 @@ function CategoryBtn(props) {
 function CategoryContent(props) { //·
     const content  = {
         "web": [["Langages","HTML · CSS · PHP · JAVASCRIPT"],["Frameworks","Bootstrap · Laravel · React · Express · NodeJS"],["IDE","PHPStorm · ECLIPSE"]],
-        "prog": [["Langages","C++ · JAVA · JAVAFX · PYTHON"],["IDE","IntelliJ IDEA · QTCreator"]],
-        "bdd": [["Langages","SQL · PL/SQL · MySQL · MariaDB"],["Applications web","phpMyAdmin · MongoDB Atlas"]],
+        "prog": [["Langages","C++ · JAVA · PYTHON"],["Frameworks","JAVAFX"],["IDE","IntelliJ IDEA · QTCreator"]],
+        "bdd": [["Langages","SQL · PL/SQL"],["SGBD","MySQL · MariaDB"],["Applications web","phpMyAdmin · MongoDB Atlas"]],
         "team": [["Versionnage","Git · GitHub · SourceTree"],["Gestion de projet","Trello · SCRUM"]]
     };
 

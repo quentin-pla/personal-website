@@ -11,8 +11,7 @@ function Parcours() {
     const defaultViewWidth = 1440;
 
     $(document).ready(function () {
-
-        if (!isMobile) resizeParcours();
+        resizeParcours();
 
         $(".step-container").hover(
             function () {
@@ -32,18 +31,21 @@ function Parcours() {
             }
         );
 
-        if (!isMobile) {
-            $(window).resize(function(){
-                resizeParcours();
-            });
-        }
+        $(window).resize(function(){
+            resizeParcours();
+        });
     });
 
     function resizeParcours() {
         const width = $(window).width();
-        if (width < defaultViewWidth) {
-            const scale = (((width * 100) / defaultViewWidth) - 5) + "%";
-            $("#responsive-step").css("transform","scale(" + scale + ")");
+        if (width > 768) {
+            const scale = (((width * 100) / defaultViewWidth)) + "%";
+            const xGap = -200 + Math.round(((width * 100) / defaultViewWidth)*2) + "px";
+            $("#responsive-step").css("transform","scale(" + scale + ") translateX(" + xGap + ")");
+        } else {
+            const scale = 60 + ((width * 60 / 375) - 60)/2 + "%";
+            const yGap = -Math.round(width * 20 / 375) + "px";
+            $("#responsive-step").css("transform","scale(" + scale + ") translateY(" + yGap + ")");
         }
     }
 
