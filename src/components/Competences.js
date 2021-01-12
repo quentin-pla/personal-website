@@ -103,10 +103,25 @@ function CategoryBtn(props) {
 
 function CategoryContent(props) { //·
     const content  = {
-        "web": [["Langages","HTML · CSS · PHP · JAVASCRIPT"],["Frameworks","Bootstrap · Laravel · React · Express · NodeJS"],["IDE","PHPStorm · ECLIPSE"]],
-        "prog": [["Langages","C++ · JAVA · PYTHON"],["Frameworks","JAVAFX"],["IDE","IntelliJ IDEA · QTCreator"]],
-        "bdd": [["Langages","SQL · PL/SQL"],["SGBD","MySQL · MariaDB"],["Applications web","phpMyAdmin · MongoDB Atlas"]],
-        "team": [["Versionnage","Git · GitHub · SourceTree"],["Gestion de projet","Trello · SCRUM"]]
+        "web": [
+            ["Langages","HTML · CSS · PHP · JAVASCRIPT"],
+            ["Frameworks","Bootstrap · Laravel · React · Express"],
+            ["IDE","PHPStorm · ECLIPSE"]
+        ],
+        "prog": [
+            ["Langages","C++ · JAVA · PYTHON"],
+            ["Frameworks","JAVAFX · Swing"],
+            ["IDE","IntelliJ IDEA · CLion · PyCharm · QTCreator"]
+        ],
+        "bdd": [
+            ["Langages","SQL · PL/SQL"],
+            ["SGBD","MySQL · MariaDB"],
+            ["Applications web","phpMyAdmin · MongoDB Atlas"]
+        ],
+        "team": [
+            ["Versionnage","Git · GitHub · SourceTree"],
+            ["Gestion de projet","Trello · SCRUM"]
+        ]
     };
 
     const categoryNames = {

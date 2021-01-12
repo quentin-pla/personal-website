@@ -58,6 +58,16 @@ function Cards() {
                 </div>
             </div>
             <div className={"card"}>
+                <a target={"_blank"} rel="noopener noreferrer" href="https://cc7.company/" className="stretched-link"> </a>
+                <div id="cc7-top" className={"top"}>
+                    <img className="img-fluid" width={110} src={process.env.PUBLIC_URL + "/cc7-logo.svg"} alt={"CC7"}/>
+                </div>
+                <div id="cc7" className={"body pt-2"}>
+                    <h4 className={"date mb-2"}>2020</h4>
+                    <h4 className={"desc"}>Réalisation d’une application web REACT de vente de créations uniques</h4>
+                </div>
+            </div>
+            <div className={"card"}>
                 <a target={"_blank"} rel="noopener noreferrer" href="https://www.linkedin.com/in/quentin-pla-447413190/" className="stretched-link"> </a>
                 <div id="linkedin-top" className={"top"}>
                     <img className="img-fluid" width={110} src={process.env.PUBLIC_URL + "/link.png"} alt={"linkedin"}/>
