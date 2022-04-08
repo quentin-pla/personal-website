@@ -571,13 +571,18 @@ h1 {
     height: 100%;
     background: white;
     position: relative;
-    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 #realisations > div {
     max-height: 100%;
     position: relative;
     z-index: 1;
+}
+
+.contact-items {
+    margin-right: 100px;
 }
 
 .contact-item {
@@ -617,9 +622,9 @@ h1 {
 }
 
 #fake-at {
-    background-color: #27282c;
+    background-color: transparent;
     color: white;
-    margin: 0;
+    margin: 0 -5px 0 -3px;
 }
 
 .contact-item img {
@@ -829,11 +834,20 @@ h1 {
     }
 
     /*** CONTACT ***/
+    .contact-items {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
     .contact-item {
         font-size: 1.3rem;
     }
 
     .contact-item svg {
         margin: 4px 3px 6px 0;
+    }
+
+    .cv {
+        margin-bottom: 50px;
     }
 }

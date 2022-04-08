@@ -5,8 +5,8 @@ import {At} from "react-bootstrap-icons";
 function Contact() {
     return (
         <Row id={"contact"} className={"justify-content-center text-center"}>
-            <div className={"m-auto d-flex"}>
-                <div className={"d-flex flex-column align-items-center p-3 text-left"} style={{marginRight: "100px"}}>
+            <div className={"m-auto d-flex flex-column flex-md-row"}>
+                <div className={"d-flex flex-column align-items-center p-3 text-left contact-items"}>
                     <img className={"mb-5"} width={150} src={process.env.PUBLIC_URL + "/obscrax.svg"} alt={"email"}/>
                     <a href={"mailto:" + "quentin-pla" + "@" + "hotmail" + ".fr"} className={"contact-item"}>
                         <At size={33}/> quentin-pla<At size={36} id={"fake-at"}/>hotmail.fr
