@@ -13,36 +13,36 @@ code {
 }
 
 @font-face {
-  font-family: 'heavy';
-  src: url('fonts/heavy.otf');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'heavy';
+    src: url('fonts/heavy.ttf');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'black';
-  src: url('fonts/black.otf');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'black';
+    src: url('fonts/black.ttf');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'medium';
-  src: url('fonts/medium.otf');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'medium';
+    src: url('fonts/medium.ttf');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'roman';
-  src: url('fonts/roman.otf');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'roman';
+    src: url('fonts/roman.ttf');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'light';
-  src: url('fonts/light.otf');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'light';
+    src: url('fonts/light.ttf');
+    font-weight: normal;
+    font-style: normal;
 }

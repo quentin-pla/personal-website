@@ -1,5 +1,5 @@
-import React,{Component} from "react";
-import {Row, Col} from "react-bootstrap";
+import React, {Component} from "react";
+import {Col, Row} from "react-bootstrap";
 import $ from "jquery";
 import ScrollAnimation from "react-animate-on-scroll";
 import {isMobile} from "react-device-detect";
@@ -104,23 +104,23 @@ function CategoryBtn(props) {
 function CategoryContent(props) { //·
     const content  = {
         "web": [
-            ["Langages","HTML · CSS · PHP · JAVASCRIPT"],
-            ["Frameworks","Bootstrap · Laravel · React · Express"],
-            ["IDE","PHPStorm · ECLIPSE"]
+            ["Langages", "HTML · CSS · JAVASCRIPT · TYPESCRIPT"],
+            ["Frameworks", "React · React Native · ASP.NET"],
+            ["Librairies", "Bootstrap · Fluent UI · JQuery"],
+            ["Outils", "Figma"]
         ],
         "prog": [
-            ["Langages","C++ · JAVA · PYTHON"],
-            ["Frameworks","JAVAFX · Swing"],
-            ["IDE","IntelliJ IDEA · CLion · PyCharm · QTCreator"]
+            ["Langages", "C++ · JAVA · PYTHON · C#"],
+            ["Frameworks", "JAVAFX · Swing"],
         ],
         "bdd": [
-            ["Langages","SQL · PL/SQL"],
-            ["SGBD","MySQL · MariaDB"],
-            ["Applications web","phpMyAdmin · MongoDB Atlas"]
+            ["Langages", "SQL · PL/SQL"],
+            ["SGBD", "MySQL · MariaDB · CosmosDB · MongoDB"],
+            ["Outils", "phpMyAdmin · MongoDB Atlas"]
         ],
         "team": [
-            ["Versionnage","Git · GitHub · SourceTree"],
-            ["Gestion de projet","Trello · SCRUM"]
+            ["Versionnage", "Git · GitHub"],
+            ["Gestion de projet", "SCRUM · Trello · Azure DevOps"]
         ]
     };
 

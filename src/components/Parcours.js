@@ -1,12 +1,12 @@
 import {Col, Row} from "react-bootstrap";
 import React from "react";
-import {CheckCircleFill, CircleFill, ClockFill} from "react-bootstrap-icons";
+import {CheckCircleFill, CircleFill} from "react-bootstrap-icons";
 import ScrollAnimation from "react-animate-on-scroll";
 import $ from "jquery";
 import {isMobile} from "react-device-detect";
 
 function Parcours() {
-    const defaultTop = {first: 192, second: -62, third: 116, fourth: -140, fifth: 40};
+    const defaultTop = {first: 192, second: -74, third: 116, fourth: -151, fifth: 40};
     let savedOrder = undefined;
     const defaultViewWidth = 1440;
 
@@ -54,7 +54,8 @@ function Parcours() {
             <Col className={"col-12 col-md"}>
                 <div id={"parcours-container"}>
                     <h1>Parcours</h1>
-                    <h3>Passionné dans les domaines du design, web et applications mobiles, je souhaiterais devenir développeur full stack.</h3>
+                    <h3>Passionné dans les domaines du design, web et applications mobiles, je souhaiterais devenir
+                        développeur front end.</h3>
                 </div>
             </Col>
             <Col className={"col-12 col-md"} id={"responsive-step"}>
@@ -62,21 +63,20 @@ function Parcours() {
                     <div className={"step-container up first"}>
                         <h1>BAC STI2D</h1>
                         <h2>2017</h2>
-                        <CheckIcon/>
                     </div>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn='animate__animated animate__fadeIn' animateOnce={true} offset={1000}>
-                <div className={"step-container up third"}>
-                    <h1>LICENCE 3 INFOR-<br/>MATIQUE</h1>
-                    <h2>2019/2020</h2>
-                    <CheckIcon/>
-                </div>
+                    <div className={"step-container up third"}>
+                        <h1>LICENCE 3 INFOR-<br/>MATIQUE</h1>
+                        <h2>2019/2020</h2>
+                    </div>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn='animate__animated animate__fadeIn' animateOnce={true} offset={1000}>
-                <div className={"step-container up fifth"}>
-                    <h1>DEV FULL STACK</h1>
-                    <h2>FUTUR</h2>
-                </div>
+                    <div className={"step-container up fifth"}>
+                        <h1>SOFTWARE<br/>DEVELOPER</h1>
+                        <h2>2021/{new Date().getFullYear()}</h2>
+                        <CheckIcon/>
+                    </div>
                 </ScrollAnimation>
 
                 <img id="road" src={process.env.PUBLIC_URL + "/road.svg"} width={100} alt={"route"}/>
@@ -85,7 +85,6 @@ function Parcours() {
                 <div className={"step-container down second"}>
                     <h1>DUT INFOR-<br/>MATIQUE</h1>
                     <h2>2017/2019</h2>
-                    <CheckIcon/>
                 </div>
                 </ScrollAnimation>
 
@@ -93,7 +92,6 @@ function Parcours() {
                     <div className={"step-container down fourth"}>
                         <h1>MASTER 1 INFOR-<br/>MATIQUE</h1>
                         <h2>2020/2021</h2>
-                        <WaitIcon/>
                     </div>
                 </ScrollAnimation>
             </Col>
@@ -106,15 +104,6 @@ function CheckIcon() {
         <div className={"step-icon"}>
             <CircleFill size={20} color={"white"}/>
             <CheckCircleFill size={20} color={"#50ba69"}/>
-        </div>
-    );
-}
-
-function WaitIcon() {
-    return (
-        <div className={"step-icon"}>
-            <CircleFill size={20} color={"white"}/>
-            <ClockFill size={20} color={"#e39036"}/>
         </div>
     );
 }

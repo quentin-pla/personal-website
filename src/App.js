@@ -11,20 +11,22 @@ import $ from "jquery";
 import {XCircleFill} from "react-bootstrap-icons";
 
 function App() {
-  return (
-      <Container fluid className={"h-100 noselect"}>
-          <Sommaire/>
-          <Accueil/>
-          <Parcours/>
-          <Competences/>
-          <Experiences/>
-          <Realisations/>
-          <Contact/>
-      </Container>
-  );
+    return (
+        <Container fluid className={"h-100 noselect"}>
+            <Sommaire/>
+            <Accueil/>
+            <Parcours/>
+            <Competences/>
+            <Experiences/>
+            <Realisations/>
+            <Contact/>
+        </Container>
+    );
 }
 
 function Sommaire() {
+
+    let animationTimeout = undefined;
 
     let userClicked = false;
 
@@ -67,35 +69,41 @@ function Sommaire() {
         }
 
         function handleScrollPosition() {
-            if (!userClicked) {
-                const position = $(window).scrollTop() * 100 / maxHeight;
-                if (position < 50) handleActiveAnchor(anchors.accueil);
-                else if (position >= 90 && position < 150) handleActiveAnchor(anchors.parcours);
-                else if (position >= 190 && position < 250) handleActiveAnchor(anchors.competences);
-                else if (position >= 290 && position < 350) handleActiveAnchor(anchors.experience);
-                else if (position >= 390 && position < 450) handleActiveAnchor(anchors.realisations);
-                else if (position >= 490 && position < 550) handleActiveAnchor(anchors.contact);
-            }
+            if (userClicked) return;
+            const position = $(window).scrollTop() * 100 / maxHeight;
+            if (position < 50) handleActiveAnchor(anchors.accueil);
+            else if (position >= 90 && position < 150) handleActiveAnchor(anchors.parcours);
+            else if (position >= 190 && position < 250) handleActiveAnchor(anchors.competences);
+            else if (position >= 290 && position < 350) handleActiveAnchor(anchors.experience);
+            else if (position >= 390 && position < 450) handleActiveAnchor(anchors.realisations);
+            else if (position >= 490 && position < 550) handleActiveAnchor(anchors.contact);
         }
     });
 
     function scrollToAnchor(anchor) {
-        $('html,body').animate({scrollTop: $("#"+ anchor).offset().top},'slow',() => {
-            setTimeout(function () {
+        const onScrollEnded = () => {
+            if (!!animationTimeout) clearTimeout(animationTimeout);
+            animationTimeout = setTimeout(() => {
                 userClicked = false;
-            },100);
+                animationTimeout = undefined;
+            }, 600)
+        };
+        $('html,body').animate({scrollTop: $("#" + anchor).offset().top}, {
+            duration: 0,
+            queue: false,
+            complete: onScrollEnded,
         });
     }
 
     const summaryContent = (
         <div>
-            <p id="accueil-anchor"      onClick={()=>scrollToAnchor("accueil")} className={"active"}>Accueil</p>
-            <p id="parcours-anchor"     onClick={()=>scrollToAnchor("parcours")} className={""}>Parcours</p>
-            <p id="competences-anchor"  onClick={()=>scrollToAnchor("competences")} className={""}>Compétences</p>
-            <p id="experience-anchor"   onClick={()=>scrollToAnchor("experience")} className={""}>Expériences</p>
-            <p id="realisations-anchor" onClick={()=>scrollToAnchor("realisations")} className={""}>Réalisations</p>
-            <p id="contact-anchor"      onClick={()=>scrollToAnchor("contact")} className={""}>Contact</p>
-            <div className={"text-right d-block d-md-none"} style={{marginRight:"10px"}}>
+            <p id="accueil-anchor" onClick={() => scrollToAnchor("accueil")} className={"active"}>Accueil</p>
+            <p id="parcours-anchor" onClick={() => scrollToAnchor("parcours")} className={""}>Parcours</p>
+            <p id="competences-anchor" onClick={() => scrollToAnchor("competences")} className={""}>Compétences</p>
+            <p id="experience-anchor" onClick={() => scrollToAnchor("experience")} className={""}>Expériences</p>
+            <p id="realisations-anchor" onClick={() => scrollToAnchor("realisations")} className={""}>Réalisations</p>
+            <p id="contact-anchor" onClick={() => scrollToAnchor("contact")} className={""}>Contact</p>
+            <div className={"text-right d-block d-md-none"} style={{marginRight: "10px"}}>
                 <XCircleFill id="close-btn" size={30}/>
             </div>
         </div>
@@ -104,7 +112,8 @@ function Sommaire() {
     return (
         <div id="summary" className={""}>
             {summaryContent}
-            <img className={"d-block d-md-none"} width={30} id="obscrax-btn" src={process.env.PUBLIC_URL + "/obscrax.svg"} alt={"bouton"}/>
+            <img className={"d-block d-md-none"} width={30} id="obscrax-btn"
+                 src={process.env.PUBLIC_URL + "/obscrax.svg"} alt={"bouton"}/>
         </div>
     );
 }
