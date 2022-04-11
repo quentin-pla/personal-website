@@ -1,34 +1,35 @@
 {
-  "homepage": "https://quentin-pla.fr/",
-  "name": "personal-website",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "animate.css": "^4.1.0",
-    "bootstrap": "^4.5.2",
-    "jquery": "^3.6.0",
-    "jquery-ui": "^1.13.1",
-    "popper.js": "^1.16.1",
-    "react": "^16.14.0",
-    "react-animate-on-scroll": "^2.1.5",
-    "react-bootstrap": "^1.3.0",
-    "react-bootstrap-icons": "^1.0.3-alpha5",
-    "react-device-detect": "^1.13.1",
-    "react-dom": "^16.14.0",
-    "react-scripts": "^5.0.0",
-    "react-swipe": "^6.0.4",
-    "swipe-js-iso": "^2.1.5",
-    "react-clear-cache": "^1.1.1",
-    "gh-pages": "^3.2.3"
-  },
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "npm run generate-build-meta && react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "generate-build-meta": "./node_modules/react-clear-cache/bin/cli.js"
+    "homepage": "https://quentin-pla.fr/",
+    "name": "personal-website",
+    "version": "0.2.0",
+    "private": true,
+    "dependencies": {
+        "animate.css": "^4.1.0",
+        "bootstrap": "^4.5.2",
+        "jquery": "^3.6.0",
+        "popper.js": "^1.16.1",
+        "react": "^16.14.0",
+        "react-animate-on-scroll": "^2.1.5",
+        "react-bootstrap": "^1.3.0",
+        "react-bootstrap-icons": "^1.0.3-alpha5",
+        "react-device-detect": "^1.13.1",
+        "react-dom": "^16.14.0",
+        "react-scripts": "^5.0.0",
+        "react-swipe": "^6.0.4",
+        "swipe-js-iso": "^2.1.5",
+        "react-clear-cache": "^1.1.1"
+    },
+    "devDependencies": {
+        "gh-pages": "^3.2.3"
+    },
+    "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
+        "start": "react-scripts start",
+        "build": "npm run generate-build-meta && react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "generate-build-meta": "./node_modules/react-clear-cache/bin/cli.js"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -127,6 +127,8 @@ h1 {
     background: linear-gradient(45deg, #4c75c0, #6a5bae);;
     border-radius: 1000px;
     max-height: 700px;
+    width: auto;
+    height: auto;
 }
 
 #bio-container {
@@ -588,12 +590,18 @@ h1 {
 .contact-item {
     background-color: #27282c;
     color: #FFFFFF !important;
-    padding: 7px 15px 5px 10px;
     border-radius: 50px;
     box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.5);
     transition: all .2s;
     font-size: 1.75rem;
     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    padding: 5px 12px;
+}
+
+.contact-item span {
+    margin-bottom: -5px;
 }
 
 .contact-item:hover {
@@ -611,26 +619,37 @@ h1 {
     box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.3);
 }
 
-.contact-item svg {
-    background-color: #FFFFFF;
-    color: black;
+.contact-item > img {
+    width: 30px;
+    height: 30px;
     border-radius: 25px;
-    margin-bottom: 2px;
-    margin-left: 1px;
-    margin-right: 3px;
-    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px 0 0;
+}
+
+.contact-item > div {
+    width: 30px;
+    height: 30px;
+    color: black;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px 0 0;
+}
+
+.contact-item > div > svg {
+    width: 23px;
+    height: 23px;
 }
 
 #fake-at {
     background-color: transparent;
     color: white;
     margin: 0 -5px 0 -3px;
-}
-
-.contact-item img {
-    border-radius: 25px;
-    margin-bottom: 3px;
-    margin-left: -2px;
 }
 
 /*** MOBILE ***/
@@ -728,11 +747,15 @@ h1 {
 
     #face-container {
         height: auto;
+        padding: 30px;
         margin: auto auto 0 auto;
     }
 
     #face {
-        height: 330px;
+        height: 100%;
+        width: 100%;
+        max-height: 330px;
+        max-width: 330px;
         margin: auto auto 0 auto;
     }
 
@@ -837,17 +860,5 @@ h1 {
     .contact-items {
         margin-right: 0;
         margin-bottom: 20px;
-    }
-
-    .contact-item {
-        font-size: 1.3rem;
-    }
-
-    .contact-item svg {
-        margin: 4px 3px 6px 0;
-    }
-
-    .cv {
-        margin-bottom: 50px;
     }
 }

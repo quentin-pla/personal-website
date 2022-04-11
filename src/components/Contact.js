@@ -1,6 +1,6 @@
 import React from "react";
 import {Row} from "react-bootstrap";
-import {At} from "react-bootstrap-icons";
+import {At, FileEarmark} from "react-bootstrap-icons";
 
 function Contact() {
     return (
@@ -9,20 +9,25 @@ function Contact() {
                 <div className={"d-flex flex-column align-items-center p-3 text-left contact-items"}>
                     <img className={"mb-5"} width={150} src={process.env.PUBLIC_URL + "/obscrax.svg"} alt={"email"}/>
                     <a href={"mailto:" + "quentin-pla" + "@" + "hotmail" + ".fr"} className={"contact-item"}>
-                        <At size={33}/> quentin-pla<At size={36} id={"fake-at"}/>hotmail.fr
+                        <div><At size={33}/></div>
+                        <span>Adresse mail</span>
                     </a>
                     <a href="https://github.com/quentin-pla" target="_blank" rel="noopener noreferrer"
                        className={"contact-item"}>
-                        <img width={40} className={"p-1"} src={process.env.PUBLIC_URL + "/github-white.png"}
-                             alt={"github"}/> quentin-pla
+                        <img src={process.env.PUBLIC_URL + "/github-white.png"} alt={"github"}/>
+                        <span>Profil Github</span>
                     </a>
                     <a href="https://www.linkedin.com/in/quentin-pla-447413190/" target="_blank"
                        rel="noopener noreferrer" className={"contact-item"}>
-                        <img width={40} className={"p-1"} src={process.env.PUBLIC_URL + "/link-white.png"}
-                             alt={"linkedin"}/> Quentin PLA
+                        <img src={process.env.PUBLIC_URL + "/link-white.png"} alt={"linkedin"}/>
+                        <span>Profil LinkedIn</span>
+                    </a>
+                    <a href={"/cv.pdf"} className={"contact-item d-flex d-md-none"}>
+                        <div><FileEarmark size={33}/></div>
+                        <span>Curriculum vitæ</span>
                     </a>
                 </div>
-                <div className={"d-flex align-items-center"}>
+                <div className={"d-none d-md-flex align-items-center"}>
                     <a className={"cv"} href={"/cv.pdf"} target={"_blank"} referrerPolicy={"noreferrer"}>
                         <img height={500} src={"/cv.webp"} alt={"cv"}/>
                     </a>
