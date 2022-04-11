@@ -8,41 +8,6 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-@font-face {
-    font-family: 'heavy';
-    src: url('fonts/heavy.ttf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'black';
-    src: url('fonts/black.ttf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'medium';
-    src: url('fonts/medium.ttf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'roman';
-    src: url('fonts/roman.ttf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'light';
-    src: url('fonts/light.ttf');
-    font-weight: normal;
-    font-style: normal;
+  font-family: Poppins, source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
 }
