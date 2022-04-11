@@ -1,7 +1,8 @@
 html, body, #root {
     height: 100%;
     background: #000;
-    font-family: medium, monospace;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
     scroll-behavior: smooth;
     max-width: 100%;
 }
@@ -12,7 +13,8 @@ a {
 
 h1 {
     font-size: 4rem;
-    font-family: heavy, monospace;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }
 
 .gradient {
@@ -142,7 +144,8 @@ h1 {
 }
 
 #bio-container h2 {
-    font-family: roman, monospace;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
     font-size: 45px;
     background: linear-gradient(45deg, #4c75c0, #6a5bae);
     -webkit-background-clip: text;
@@ -215,7 +218,8 @@ h1 {
 }
 
 #parcours-container h3 {
-    font-family: heavy, monospace;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     font-size: 1.78vw;
     line-height: 1.4;
 }
@@ -281,13 +285,15 @@ h1 {
 }
 
 .step-container h1 {
-    font-family: black, monospace;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     font-size: 1rem !important;
     margin-bottom: 2px;
 }
 
 .step-container h2 {
-    font-family: medium, monospace;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
     color: #5c5c5c;
     font-size: 1rem;
     margin-bottom: 0;
@@ -344,7 +350,8 @@ h1 {
     min-width: 220px;
     max-width: 220px;
     background: linear-gradient(45deg, #4c75c0, #6a5bae);
-    font-family: heavy, monospace;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     font-size: 2rem;
     margin: 10px;
     cursor: pointer;
@@ -385,12 +392,14 @@ h1 {
 }
 
 #category-content h3 {
-    font-family: heavy, monospace;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     font-size: 1.5rem;
 }
 
 #category-content h4 {
-    font-family: light, monospace;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
     font-size: 1.2rem;
 }
 
@@ -489,18 +498,21 @@ h1 {
 }
 
 .card > .body > .date {
-    font-family: heavy, monospace;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     font-size: 35px;
     text-align: center;
 }
 
 .card > .body > .stage {
-    font-family: heavy, monospace;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 .card > .body > .desc {
     margin-bottom: 0;
-    font-family: roman, monospace;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
 }
 
 #experience .tentacle2 {
@@ -532,7 +544,8 @@ h1 {
 }
 
 #realisations h4.date {
-    font-family: heavy, monospace;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     font-size: 35px;
 }
 
@@ -598,10 +611,6 @@ h1 {
     display: flex;
     align-items: center;
     padding: 5px 12px;
-}
-
-.contact-item span {
-    margin-bottom: -5px;
 }
 
 .contact-item:hover {
