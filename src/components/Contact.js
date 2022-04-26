@@ -1,12 +1,12 @@
 import React from "react";
 import {Row} from "react-bootstrap";
-import {At, FileEarmark} from "react-bootstrap-icons";
+import {At} from "react-bootstrap-icons";
 
 function Contact() {
     return (
         <Row id={"contact"} className={"justify-content-center text-center"}>
             <div className={"m-auto d-flex flex-column flex-md-row"}>
-                <div className={"d-flex flex-column align-items-center p-3 text-left contact-items"}>
+                <div className={"d-flex flex-column align-items-center p-3 text-left"}>
                     <img className={"mb-5"} width={150} src={process.env.PUBLIC_URL + "/obscrax.svg"} alt={"email"}/>
                     <a href={"mailto:" + "quentin-pla" + "@" + "hotmail" + ".fr"} className={"contact-item"}>
                         <div><At size={33}/></div>
@@ -21,15 +21,6 @@ function Contact() {
                        rel="noopener noreferrer" className={"contact-item"}>
                         <img src={process.env.PUBLIC_URL + "/link-white.png"} alt={"linkedin"}/>
                         <span>Profil LinkedIn</span>
-                    </a>
-                    <a href={"/cv.pdf"} className={"contact-item d-flex d-md-none"}>
-                        <div><FileEarmark size={33}/></div>
-                        <span>Curriculum vitæ</span>
-                    </a>
-                </div>
-                <div className={"d-none d-md-flex align-items-center"}>
-                    <a className={"cv"} href={"/cv.pdf"} target={"_blank"} referrerPolicy={"noreferrer"}>
-                        <img height={500} src={"/cv.webp"} alt={"cv"}/>
                     </a>
                 </div>
             </div>
