@@ -115,6 +115,7 @@ h1 {
 }
 
 #face-container {
+    position: relative;
     height: 90vh;
     object-fit: contain;
     margin: auto auto 0 0;
