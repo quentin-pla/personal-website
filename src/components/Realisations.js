@@ -52,7 +52,7 @@ function Cards() {
                 </div>
             </div>
             <div className={"card"}>
-                <a target={"_blank"} rel="noopener noreferrer" href="https://github.com/quentin-pla/work#projets-et-r%C3%A9alisations" className="stretched-link"> </a>
+                <a target={"_blank"} rel="noopener noreferrer" href="https://github.com/quentin-pla" className="stretched-link"> </a>
                 <div className={"p-3 text-center"}>
                     <img className="img-fluid mb-1" width={180} src={process.env.PUBLIC_URL + "/github.png"} alt={"Github"}/>
                     <h4 className={"date mb-2"}>2017/2020</h4>
