@@ -2,6 +2,7 @@ import React from "react";
 import {Row,Col} from "react-bootstrap";
 import ScrollAnimation from "react-animate-on-scroll";
 import ReactSwipe from "react-swipe";
+import {PersonCircle} from "react-bootstrap-icons";
 
 function Realisations() {
     return (
@@ -44,18 +45,26 @@ function Cards() {
                 </div>
             </div>
             <div className={"card"}>
-                <a target={"_blank"} rel="noopener noreferrer" href="https://gestion-bibi-hotels.herokuapp.com/" className="stretched-link"> </a>
+                <a target={"_blank"} rel="noopener noreferrer" href="https://quentin-pla.github.io/test-technique-aspirateur-robot/" className="stretched-link"> </a>
                 <div className={"p-3 text-center"}>
-                    <img className="img-fluid mb-1" width={180} src={process.env.PUBLIC_URL + "/logo-bibi.PNG"} alt={"Bibi"}/>
-                    <h4 className={"date mb-2"}>2020</h4>
-                    <h4>Gestion chaîne hôtels</h4>
+                    <img className="img-fluid mb-1" width={180} src={process.env.PUBLIC_URL + "/autovacuum.svg"} alt={"Aspirateur robot"}/>
+                    <h4 className={"date mb-2"}>2022</h4>
+                    <h4>Aspirateur Robot</h4>
+                </div>
+            </div>
+            <div className={"card"}>
+                <a target={"_blank"} rel="noopener noreferrer" href="https://quentin-pla.github.io/test-technique-random-users/" className="stretched-link"> </a>
+                <div className={"p-3 text-center"}>
+                    <PersonCircle size={180} className={"mb-1"}/>
+                    <h4 className={"date mb-2"}>2022</h4>
+                    <h4>Random Users</h4>
                 </div>
             </div>
             <div className={"card"}>
                 <a target={"_blank"} rel="noopener noreferrer" href="https://github.com/quentin-pla" className="stretched-link"> </a>
                 <div className={"p-3 text-center"}>
                     <img className="img-fluid mb-1" width={180} src={process.env.PUBLIC_URL + "/github.png"} alt={"Github"}/>
-                    <h4 className={"date mb-2"}>2017/2020</h4>
+                    <h4 className={"date mb-2"}>2017/2022</h4>
                     <h4>Profil GitHub</h4>
                 </div>
             </div>

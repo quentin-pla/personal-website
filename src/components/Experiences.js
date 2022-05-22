@@ -65,7 +65,7 @@ function Cards() {
                 </div>
             </div>
             <div className={"card"}>
-                <a target={"_blank"} rel="noopener noreferrer" href="https://www.linkedin.com/in/quentin-pla-447413190/"
+                <a target={"_blank"} rel="noopener noreferrer" href="https://www.linkedin.com/in/quentin-pla/"
                    className="stretched-link"> </a>
                 <div id="linkedin-top" className={"top"}>
                     <img className="img-fluid" width={110} src={process.env.PUBLIC_URL + "/link.png"} alt={"linkedin"}/>
