@@ -101,7 +101,7 @@ function CategoryBtn(props) {
     );
 }
 
-function CategoryContent(props) { //·
+function CategoryContent(props) {
     const content  = {
         "web": [
             ["Langages", "HTML · CSS · JAVASCRIPT · TYPESCRIPT"],

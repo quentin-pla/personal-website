@@ -10,7 +10,7 @@ function Accueil() {
                     <ScrollAnimation animateIn='animate__animated animate__fadeInUp'
                                      animateOut='animate__animated animate__fadeOutDown'>
                         <h1>Quentin PLA</h1>
-                        <h2>Software Developer</h2>
+                        <h2>Frontend & UX Engineer</h2>
                         <h3>Witivio</h3>
                     </ScrollAnimation>
                 </div>

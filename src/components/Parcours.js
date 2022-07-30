@@ -22,12 +22,12 @@ function Parcours() {
                 let scale = 1.2;
                 if (isMobile) scale = 1.5;
                 $(this).css("transform","scale(" + scale + ")");
-                $(this).css("top","calc(40% + " + top + "px");
+                $(this).css("top","calc(50% + " + top + "px");
             },
             function () {
                 let top = defaultTop[savedOrder];
                 $(this).css("transform","rotateX(30deg) rotateY(-36deg)");
-                $(this).css("top","calc(40% + " + top + "px");
+                $(this).css("top","calc(50% + " + top + "px");
             }
         );
 
@@ -48,6 +48,8 @@ function Parcours() {
             $("#responsive-step").css("transform","scale(" + scale + ") translateY(" + yGap + ")");
         }
     }
+    
+    const currentYear = new Date().getFullYear();
 
     return (
         <Row id={"parcours"} className={"h-100"}>
@@ -61,20 +63,20 @@ function Parcours() {
             <Col className={"col-12 col-md"} id={"responsive-step"}>
                 <ScrollAnimation animateIn='animate__animated animate__fadeIn' animateOnce={true} offset={1000}>
                     <div className={"step-container up first"}>
-                        <h1>BAC STI2D</h1>
-                        <h2>2017</h2>
+                        <h1>DUT INFOR-<br/>MATIQUE</h1>
+                        <h2>2017/2019</h2>
                     </div>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn='animate__animated animate__fadeIn' animateOnce={true} offset={1000}>
                     <div className={"step-container up third"}>
-                        <h1>LICENCE 3 INFOR-<br/>MATIQUE</h1>
-                        <h2>2019/2020</h2>
+                        <h1>MASTER 1 INFOR-<br/>MATIQUE</h1>
+                        <h2>2020/2021</h2>
                     </div>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn='animate__animated animate__fadeIn' animateOnce={true} offset={1000}>
                     <div className={"step-container up fifth"}>
-                        <h1>SOFTWARE<br/>DEVELOPER</h1>
-                        <h2>2021/{new Date().getFullYear()}</h2>
+                        <h1>FRONTEND<br/>& UX ENGINEER</h1>
+                        <h2>2022{currentYear !== 2022 ? "/" + currentYear : null}</h2>
                         <CheckIcon/>
                     </div>
                 </ScrollAnimation>
@@ -83,15 +85,15 @@ function Parcours() {
 
                 <ScrollAnimation animateIn='animate__animated animate__fadeIn' animateOnce={true} offset={1000}>
                 <div className={"step-container down second"}>
-                    <h1>DUT INFOR-<br/>MATIQUE</h1>
-                    <h2>2017/2019</h2>
+                    <h1>LICENCE 3 INFOR-<br/>MATIQUE</h1>
+                    <h2>2019/2020</h2>
                 </div>
                 </ScrollAnimation>
 
                 <ScrollAnimation animateIn='animate__animated animate__fadeIn' animateOnce={true} offset={1000}>
                     <div className={"step-container down fourth"}>
-                        <h1>MASTER 1 INFOR-<br/>MATIQUE</h1>
-                        <h2>2020/2021</h2>
+                        <h1>SOFTWARE<br/>DEVELOPER</h1>
+                        <h2>2021/2022</h2>
                     </div>
                 </ScrollAnimation>
             </Col>

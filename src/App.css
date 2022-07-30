@@ -198,15 +198,16 @@ h1 {
 #road {
     position: absolute;
     overflow: hidden;
-    top: calc(40% - 340px);
+    top: calc(50% - 340px);
     left: 250px;
     -webkit-transform: rotateZ(70deg) rotateX(30deg) rotateY(-50deg) scale(2.5);
 }
 
 #parcours-container {
     position: relative;
-    max-width: 530px;
+    max-width: 600px;
     margin: auto;
+    padding-bottom: 20%;
     display: flex;
     flex-direction: column;
 }
@@ -301,27 +302,27 @@ h1 {
 }
 
 .step-container.first {
-    top: calc(40% + 192px);
+    top: calc(50% + 192px);
     left: 70px;
 }
 
 .step-container.second {
-    top: calc(40% - 74px);
+    top: calc(50% - 74px);
     left: 60px;
 }
 
 .step-container.third {
-    top: calc(40% + 116px);
+    top: calc(50% + 116px);
     left: 280px;
 }
 
 .step-container.fourth {
-    top: calc(40% - 151px);
+    top: calc(50% - 151px);
     left: 271px;
 }
 
 .step-container.fifth {
-    top: calc(40% + 40px);
+    top: calc(50% + 40px);
     left: 490px;
 }
 
